@@ -1,0 +1,1165 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00BFB8B5DFE6E9D0786F47FCA9C4D10D /* Pods-KLTimeMeter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 545A405A59EC24FF67D4B2194D38C4D8 /* Pods-KLTimeMeter_Tests-dummy.m */; };
+		030F2AC677591D7B138D81E2CB94071D /* MJRefreshAutoNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A52CBA4D7D8DA6F4612E32257DD6E1D /* MJRefreshAutoNormalFooter.m */; };
+		032A65EE57DEDDE2F1A1DDA4C7B63704 /* MJRefreshTrailer.h in Headers */ = {isa = PBXBuildFile; fileRef = CF0AE247F3CBACEE619A67CBD8B7E201 /* MJRefreshTrailer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07156A5DC88281DDCDDDC08F2BA33BA6 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C659C2955EEC4D3C5B7D0AF247A243DD /* UIView+MJExtension.m */; };
+		07988B66B5077EAD4C5066884499D694 /* MJRefreshStateTrailer.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FE3A9F225CE4CF8B893DFE55469491 /* MJRefreshStateTrailer.m */; };
+		0C63B5E51A42093DD18E290C3134CC9D /* KLTimeMeterManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FD39A8CA55F14D1BCE4765E8CD7B4589 /* KLTimeMeterManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0ED9F28A50E20E697D08A49959D9B762 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1218E55A21A583689F065C9E60E21E85 /* MJRefreshAutoStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = B6F1575AD5753681A0A9DE086F3BE671 /* MJRefreshAutoStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12EA4201881658CD7B5997B283E25B4A /* KLTimeMeterInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDAAC8FB1FA579EEAA876F8D58DD6D3 /* KLTimeMeterInterval.m */; };
+		169094D297B643310BF2BD951A4684ED /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7935FFDF49D307A29891FA4ED32EED8B /* MJRefreshBackFooter.m */; };
+		178B061B26ADEE4A1CB92FC204405079 /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = F8173214F4DB6CCD45CCBC98972C8990 /* MJRefreshComponent.m */; };
+		18EF68A63F897815E7651478AC683BFF /* MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = EC31A219B753FAA7AEC063D329175429 /* MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B29058712D83A2E9581516474123E81 /* MJRefreshAutoStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C1AC2131E547FB6FA54E32772EFDE9 /* MJRefreshAutoStateFooter.m */; };
+		202CACEE7D4DD43EC48D13F3579F52E2 /* MJRefreshAutoGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF29F1AEC35F755D8AA549AA2506C91 /* MJRefreshAutoGifFooter.m */; };
+		22F534202F1669607531DEB59A1509EF /* NSBundle+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DF958ABD30010A59637497FABB10BC0 /* NSBundle+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24CD7F98BF2422F938DFA1B4D109F7A3 /* MJRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4E870862B8266E93361CC2FBA36F19 /* MJRefreshStateHeader.m */; };
+		2636AC58FFB864367B2C7DA814440673 /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC22104436818067ABD1ED2BF8AA5E /* MJRefresh.bundle */; };
+		2829A172CF7718DF92F11F74FC30808C /* MJRefreshConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 18EAB2C8BCA3E6A2B1CF9F561D70B473 /* MJRefreshConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A16FE242CEB23E71CD02F691F66A112 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2C2F73503F4E272F4F564095F8007446 /* KLTimeMeter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4544B505B00F35A7BE8546FA3BA0FE07 /* KLTimeMeter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D84CC49CF8696C5FC0B4F97183757BA /* MJRefreshStateTrailer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1343F5EDC26C7AFC75278CCAD48DF427 /* MJRefreshStateTrailer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F44236F240D213E02C4BD3445600A18 /* UIScrollView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 35F7AB949A18F9EA9FB91F40B3427788 /* UIScrollView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31EF91A23AAC06327EFF99407F58E4A1 /* MJRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C57B6605D3EA0775E9CF6CD3BCD450 /* MJRefreshFooter.m */; };
+		32875BD0D0C2023541F2FE9CB05433C9 /* MJRefreshAutoFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = A7260AB949A8561F860F87899DFF9720 /* MJRefreshAutoFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36A590D4B703C9FA24B1CC524785766D /* KLTimeMeterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2113F9A6C17641902EF3772457CE482D /* KLTimeMeterManager.m */; };
+		44D61976CDABEE75A89BC987D836BA22 /* MJRefreshConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 11BA1AAB8DD34AB3D1CDF0034BD6C1EB /* MJRefreshConfig.m */; };
+		4C432B389802242037B7FDE012A84B16 /* MJRefreshBackStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = D89AFD2761F589D407706890D0214358 /* MJRefreshBackStateFooter.m */; };
+		4DB426AE8F6A7872EA9980675937860C /* MJRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9B2C93B7FA373159CDB3D821F5B3A3 /* MJRefreshNormalHeader.m */; };
+		4ED1527DCD779C5DA562796D603E7AAE /* MJRefreshTrailer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE54EFC954C98125755EF5907426E7BA /* MJRefreshTrailer.m */; };
+		5133331821D9D576A546B6ACF9A49829 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FC03BEBE71934C794A0CB986F937AB74 /* UIScrollView+MJExtension.m */; };
+		55C0AA01EFB38DB3E99E12871EAAA0CA /* UIScrollView+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 13183715C982DA46D6E63C23DB38382B /* UIScrollView+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		575A6E5065B2D63D73D9D3093BFC8BA1 /* MJRefreshComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = C956E6A151322B532874E36D0FAE3569 /* MJRefreshComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		671650B5306AC075C470A221F076DED0 /* MJRefreshBackNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B1304F1EEE7EBE6401E9AFA0E8DD04 /* MJRefreshBackNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B15CB962DD6909799721040AC731E63 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2B773504A9AC949F425F7A957E4998 /* MJRefreshAutoFooter.m */; };
+		6B5DE72C51A7ECFCA0F08938450FEF13 /* MJRefreshGifHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 50E7A8506408B26A7A5CB187D4A1BDF8 /* MJRefreshGifHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75F599A0810D049551460FD48BDDC63D /* MJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF062FFB4FD81F316B7C342D303AB73 /* MJRefreshGifHeader.m */; };
+		77582019152B8DA5A6439A7F5833C864 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7F8FDA8325037CF58454A6FCC72EF92E /* MJRefreshBackGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B36D7C1F0ABB9FF3085584FD501F665 /* MJRefreshBackGifFooter.m */; };
+		8C3A78CEAB3F62956CF5D2FCD3A3AF5E /* MJRefreshNormalTrailer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABFB026593E7260C84E4EE47D49163B /* MJRefreshNormalTrailer.m */; };
+		8F46B0D73851F3EA69837DCC8478F6F3 /* KLTimeMeterInterval.h in Headers */ = {isa = PBXBuildFile; fileRef = 41AD60B75F123079D475EB6E0768F7FB /* KLTimeMeterInterval.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9375AA78A2A110F76F5A42747B76A84C /* MJRefreshNormalHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FFF6C420F67A90B6F5E7952DF25B9AA /* MJRefreshNormalHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		945A9BE25F8E6ABADEA3F04A7DDE9B08 /* UIView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 650EF41EA0F1F8FF80E7AAE72C9551CD /* UIView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A38E34D60B46DAB4D69376AB410CAB2 /* Pods-KLTimeMeter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8841020E1BBFCB9AE18D9F947B9BB224 /* Pods-KLTimeMeter_Example-dummy.m */; };
+		9AA317F0A213DF1B7D5DF80A84465950 /* KLTimeMeter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD8B15E9BD5E201EF4B75787B29212A /* KLTimeMeter-dummy.m */; };
+		9BE0BF265B893EF3A61083CA356D29C8 /* MJRefreshBackGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 19B5D2491829B4D7781B7224D0A7FA90 /* MJRefreshBackGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CD2D140C582073FEAEB422D4351A367 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A702E042B5A291C4B3908E5394B6265 /* UIScrollView+MJRefresh.m */; };
+		A8E0AB7CD74B84C388CDE21767A2E3E1 /* KLTimeMeter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2958023B922B5CE1E7D9DDFA57D2306E /* KLTimeMeter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF846B40C387D32AAACB38A3F922A461 /* MJRefreshNormalTrailer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C837E616BE87F93A3709743BF9DA1AA /* MJRefreshNormalTrailer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1E235113F74BB337D32950D0E62303C /* MJRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 86FC886F0A00558315877D1929396F60 /* MJRefreshHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2FA7CF735801C899E309901D09D92CB /* MJRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 301FF7BD4744AB97D033F59944BF1011 /* MJRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7B8322CDCEA00A4AC58F453546B6034 /* MJRefreshAutoGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B765EC39E9375E697BD2A7D6E44B9F9 /* MJRefreshAutoGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB09724AEBC9B724A6CE5483B1C35C2B /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF31FEB6EC11456E35F60BA5078CAD5 /* MJRefreshConst.m */; };
+		BF659B71B5A58084930FC865B0403876 /* MJRefreshBackNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = DB47F1B61609B052EC7D868F0637C816 /* MJRefreshBackNormalFooter.m */; };
+		C0CB252A9F9823138B65159649E37FB4 /* Pods-KLTimeMeter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F0292EC9030F6BDF0CC4907C94ACEB9 /* Pods-KLTimeMeter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9785C7021E6C4E23702768F9055F120 /* MJRefreshAutoNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BF476797E18810531ABFC3F6E9D734D /* MJRefreshAutoNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA86C74B839E6CB3E4E5824A8B679C47 /* MJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 036BC2C6D44A43216A05C023228F7245 /* MJRefreshHeader.m */; };
+		DE6DFE46FA38208B42FC36B13E716FA7 /* Pods-KLTimeMeter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59A697DFE27D85969AE3F11E78AF005C /* Pods-KLTimeMeter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFB3A97886B6F5B2F46409CE474E1E18 /* MJRefreshFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = C4204510DEB9C1B94EA008D0620BA5D4 /* MJRefreshFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0F90D4558F57AE4C28EE197B291FCAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E33BAA3E1FB4299170447B7D1FE9DC69 /* MJRefreshStateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 66C1A9FA0B2B94A78A3AF1A9438D524F /* MJRefreshStateHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3A0F7C4F57C9311032A4D27AB7C354D /* NSBundle+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B6A6570FA5D6EF8AF340F420D5435 /* NSBundle+MJRefresh.m */; };
+		E4B2EE0A477945116E640EC3B9040650 /* MJRefreshBackStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 72E86725E4528BF0B294798B8012CC7A /* MJRefreshBackStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E54F8B2DDCB7F7C79BF24F6F0DE57314 /* MJRefreshConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C32C82BEEAE13406A0CF1F28108CB37 /* MJRefreshConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2322B939CB5FCFA4A58DC2AFD1EC0F0 /* MJRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B652FD6D87B11405C41F143218EE028 /* MJRefresh-dummy.m */; };
+		F2FB9D7785A4985D0D5E35A41FD9D042 /* MJRefreshBackFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9003BB5EE5B856F06665EAF9DDB99F7E /* MJRefreshBackFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77BD85519F945D6E35D472319C335E54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7539CF7E4E95820B9F557F4D75A79BFA;
+			remoteInfo = "Pods-KLTimeMeter_Example";
+		};
+		8BE223AB8A0AFF241ACADC6BBBD9ACDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43E610CEB454C780086C55B00895FC87;
+			remoteInfo = KLTimeMeter;
+		};
+		ADC518B40A2477C9713AACB96C0B366F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6868056D761E163D10FDAF8CF1C4D9B8;
+			remoteInfo = MJRefresh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		019CF132D2347925270C226CDECD08A3 /* Pods-KLTimeMeter_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KLTimeMeter_Example-Info.plist"; sourceTree = "<group>"; };
+		01C1AC2131E547FB6FA54E32772EFDE9 /* MJRefreshAutoStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoStateFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.m; sourceTree = "<group>"; };
+		01EB25AC2428E8E1589CACD1219A1660 /* Pods-KLTimeMeter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KLTimeMeter_Example.modulemap"; sourceTree = "<group>"; };
+		036BC2C6D44A43216A05C023228F7245 /* MJRefreshHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshHeader.m; path = MJRefresh/Base/MJRefreshHeader.m; sourceTree = "<group>"; };
+		03EADC078CB0BF2D8AE89723A8E3BE8C /* MJRefresh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJRefresh.release.xcconfig; sourceTree = "<group>"; };
+		0657E573084EFA2E6B443AD87F4C852D /* Pods-KLTimeMeter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KLTimeMeter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		06C57B6605D3EA0775E9CF6CD3BCD450 /* MJRefreshFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshFooter.m; path = MJRefresh/Base/MJRefreshFooter.m; sourceTree = "<group>"; };
+		083DC2366629B0D2D86D56B6905310EC /* Pods-KLTimeMeter_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KLTimeMeter_Tests-Info.plist"; sourceTree = "<group>"; };
+		08545B49C074F8EF8416326C486485E4 /* Pods-KLTimeMeter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KLTimeMeter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0C32C82BEEAE13406A0CF1F28108CB37 /* MJRefreshConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshConst.h; path = MJRefresh/MJRefreshConst.h; sourceTree = "<group>"; };
+		0F0292EC9030F6BDF0CC4907C94ACEB9 /* Pods-KLTimeMeter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KLTimeMeter_Example-umbrella.h"; sourceTree = "<group>"; };
+		106A8B35EDAE6E36BC4ADB1081832B12 /* Pods-KLTimeMeter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KLTimeMeter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		11BA1AAB8DD34AB3D1CDF0034BD6C1EB /* MJRefreshConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshConfig.m; path = MJRefresh/MJRefreshConfig.m; sourceTree = "<group>"; };
+		13183715C982DA46D6E63C23DB38382B /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJRefresh.h"; path = "MJRefresh/UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
+		1343F5EDC26C7AFC75278CCAD48DF427 /* MJRefreshStateTrailer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshStateTrailer.h; path = MJRefresh/Custom/Trailer/MJRefreshStateTrailer.h; sourceTree = "<group>"; };
+		18EAB2C8BCA3E6A2B1CF9F561D70B473 /* MJRefreshConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshConfig.h; path = MJRefresh/MJRefreshConfig.h; sourceTree = "<group>"; };
+		19B5D2491829B4D7781B7224D0A7FA90 /* MJRefreshBackGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackGifFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.h; sourceTree = "<group>"; };
+		1A8B6A6570FA5D6EF8AF340F420D5435 /* NSBundle+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+MJRefresh.m"; path = "MJRefresh/NSBundle+MJRefresh.m"; sourceTree = "<group>"; };
+		1AEC22104436818067ABD1ED2BF8AA5E /* MJRefresh.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MJRefresh.bundle; path = MJRefresh/MJRefresh.bundle; sourceTree = "<group>"; };
+		1B765EC39E9375E697BD2A7D6E44B9F9 /* MJRefreshAutoGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoGifFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.h; sourceTree = "<group>"; };
+		2113F9A6C17641902EF3772457CE482D /* KLTimeMeterManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KLTimeMeterManager.m; path = KLTimeMeter/Classes/KLTimeMeterManager.m; sourceTree = "<group>"; };
+		23817D753C48626AEC0CDF36B2B7CBA6 /* MJRefresh-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MJRefresh-Info.plist"; sourceTree = "<group>"; };
+		2958023B922B5CE1E7D9DDFA57D2306E /* KLTimeMeter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KLTimeMeter-umbrella.h"; sourceTree = "<group>"; };
+		2CD8B15E9BD5E201EF4B75787B29212A /* KLTimeMeter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KLTimeMeter-dummy.m"; sourceTree = "<group>"; };
+		2FFF6C420F67A90B6F5E7952DF25B9AA /* MJRefreshNormalHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshNormalHeader.h; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.h; sourceTree = "<group>"; };
+		301FF7BD4744AB97D033F59944BF1011 /* MJRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-umbrella.h"; sourceTree = "<group>"; };
+		31FE3A9F225CE4CF8B893DFE55469491 /* MJRefreshStateTrailer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshStateTrailer.m; path = MJRefresh/Custom/Trailer/MJRefreshStateTrailer.m; sourceTree = "<group>"; };
+		335170A5DDBAFD27338B02F643D5BABD /* Pods-KLTimeMeter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KLTimeMeter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		35F7AB949A18F9EA9FB91F40B3427788 /* UIScrollView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJExtension.h"; path = "MJRefresh/UIScrollView+MJExtension.h"; sourceTree = "<group>"; };
+		36143A968352DFC6BABD2DB49B337A27 /* Pods-KLTimeMeter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KLTimeMeter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3A52CBA4D7D8DA6F4612E32257DD6E1D /* MJRefreshAutoNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoNormalFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.m; sourceTree = "<group>"; };
+		41AD60B75F123079D475EB6E0768F7FB /* KLTimeMeterInterval.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KLTimeMeterInterval.h; path = KLTimeMeter/Classes/KLTimeMeterInterval.h; sourceTree = "<group>"; };
+		4544B505B00F35A7BE8546FA3BA0FE07 /* KLTimeMeter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KLTimeMeter.h; path = KLTimeMeter/Classes/KLTimeMeter.h; sourceTree = "<group>"; };
+		48D4C4EAD6325FD1603EAD8BA1DC3961 /* MJRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-prefix.pch"; sourceTree = "<group>"; };
+		494556B7F327686F90F2B7673A0681BA /* Pods_KLTimeMeter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KLTimeMeter_Example.framework; path = "Pods-KLTimeMeter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C837E616BE87F93A3709743BF9DA1AA /* MJRefreshNormalTrailer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshNormalTrailer.h; path = MJRefresh/Custom/Trailer/MJRefreshNormalTrailer.h; sourceTree = "<group>"; };
+		4DF958ABD30010A59637497FABB10BC0 /* NSBundle+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+MJRefresh.h"; path = "MJRefresh/NSBundle+MJRefresh.h"; sourceTree = "<group>"; };
+		50E7A8506408B26A7A5CB187D4A1BDF8 /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshGifHeader.h; path = MJRefresh/Custom/Header/MJRefreshGifHeader.h; sourceTree = "<group>"; };
+		545A405A59EC24FF67D4B2194D38C4D8 /* Pods-KLTimeMeter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KLTimeMeter_Tests-dummy.m"; sourceTree = "<group>"; };
+		54B2C326D143132C35AB14774B1EC12E /* Pods_KLTimeMeter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KLTimeMeter_Tests.framework; path = "Pods-KLTimeMeter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		570AED08B694609840719148DF2DF62D /* KLTimeMeter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KLTimeMeter-prefix.pch"; sourceTree = "<group>"; };
+		59269E45BB086D5B8DCAAB2A15F370F0 /* KLTimeMeter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KLTimeMeter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		59A697DFE27D85969AE3F11E78AF005C /* Pods-KLTimeMeter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KLTimeMeter_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5BF476797E18810531ABFC3F6E9D734D /* MJRefreshAutoNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoNormalFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.h; sourceTree = "<group>"; };
+		650EF41EA0F1F8FF80E7AAE72C9551CD /* UIView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MJExtension.h"; path = "MJRefresh/UIView+MJExtension.h"; sourceTree = "<group>"; };
+		66C1A9FA0B2B94A78A3AF1A9438D524F /* MJRefreshStateHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshStateHeader.h; path = MJRefresh/Custom/Header/MJRefreshStateHeader.h; sourceTree = "<group>"; };
+		71BCAF2D07BB97FBB3F2EB7CC685766A /* Pods-KLTimeMeter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KLTimeMeter_Tests.modulemap"; sourceTree = "<group>"; };
+		72E86725E4528BF0B294798B8012CC7A /* MJRefreshBackStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackStateFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.h; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7403557F1813F699CA6D811227D40330 /* KLTimeMeter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KLTimeMeter-Info.plist"; sourceTree = "<group>"; };
+		7609E5D8B8A3E9991B978D65F4799022 /* KLTimeMeter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KLTimeMeter.debug.xcconfig; sourceTree = "<group>"; };
+		767F742A197E3CA01AAD21B2F1E3B3FC /* Pods-KLTimeMeter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KLTimeMeter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7935FFDF49D307A29891FA4ED32EED8B /* MJRefreshBackFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackFooter.m; path = MJRefresh/Base/MJRefreshBackFooter.m; sourceTree = "<group>"; };
+		7ABFB026593E7260C84E4EE47D49163B /* MJRefreshNormalTrailer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshNormalTrailer.m; path = MJRefresh/Custom/Trailer/MJRefreshNormalTrailer.m; sourceTree = "<group>"; };
+		7B36D7C1F0ABB9FF3085584FD501F665 /* MJRefreshBackGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackGifFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.m; sourceTree = "<group>"; };
+		7C99F64AB2B48E39904B7C434B9828DE /* Pods-KLTimeMeter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KLTimeMeter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7DF29F1AEC35F755D8AA549AA2506C91 /* MJRefreshAutoGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoGifFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.m; sourceTree = "<group>"; };
+		86FC886F0A00558315877D1929396F60 /* MJRefreshHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshHeader.h; path = MJRefresh/Base/MJRefreshHeader.h; sourceTree = "<group>"; };
+		8841020E1BBFCB9AE18D9F947B9BB224 /* Pods-KLTimeMeter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KLTimeMeter_Example-dummy.m"; sourceTree = "<group>"; };
+		8A702E042B5A291C4B3908E5394B6265 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJRefresh.m"; path = "MJRefresh/UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
+		8FF062FFB4FD81F316B7C342D303AB73 /* MJRefreshGifHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshGifHeader.m; path = MJRefresh/Custom/Header/MJRefreshGifHeader.m; sourceTree = "<group>"; };
+		9003BB5EE5B856F06665EAF9DDB99F7E /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackFooter.h; path = MJRefresh/Base/MJRefreshBackFooter.h; sourceTree = "<group>"; };
+		98350F0B3274667AB6ED157B9A224C54 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9B652FD6D87B11405C41F143218EE028 /* MJRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJRefresh-dummy.m"; sourceTree = "<group>"; };
+		9CE15026A5BB3CFD1F68B20ABE95BCD0 /* Pods-KLTimeMeter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KLTimeMeter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7260AB949A8561F860F87899DFF9720 /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoFooter.h; path = MJRefresh/Base/MJRefreshAutoFooter.h; sourceTree = "<group>"; };
+		AB8045FC00016386FBD4BE47B69A3C19 /* Pods-KLTimeMeter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KLTimeMeter_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AF53E804E58678DC80BF11E7831EE180 /* MJRefresh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJRefresh.debug.xcconfig; sourceTree = "<group>"; };
+		B6F1575AD5753681A0A9DE086F3BE671 /* MJRefreshAutoStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoStateFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.h; sourceTree = "<group>"; };
+		B7B1304F1EEE7EBE6401E9AFA0E8DD04 /* MJRefreshBackNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackNormalFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.h; sourceTree = "<group>"; };
+		B7BF0B2F1D976C2242AF28B584B104A2 /* MJRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MJRefresh.modulemap; sourceTree = "<group>"; };
+		C4204510DEB9C1B94EA008D0620BA5D4 /* MJRefreshFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshFooter.h; path = MJRefresh/Base/MJRefreshFooter.h; sourceTree = "<group>"; };
+		C6302CAE437D2404FBD0A5967BC355F2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C659C2955EEC4D3C5B7D0AF247A243DD /* UIView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MJExtension.m"; path = "MJRefresh/UIView+MJExtension.m"; sourceTree = "<group>"; };
+		C956E6A151322B532874E36D0FAE3569 /* MJRefreshComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshComponent.h; path = MJRefresh/Base/MJRefreshComponent.h; sourceTree = "<group>"; };
+		CF0AE247F3CBACEE619A67CBD8B7E201 /* MJRefreshTrailer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshTrailer.h; path = MJRefresh/Base/MJRefreshTrailer.h; sourceTree = "<group>"; };
+		D89AFD2761F589D407706890D0214358 /* MJRefreshBackStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackStateFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.m; sourceTree = "<group>"; };
+		DB47F1B61609B052EC7D868F0637C816 /* MJRefreshBackNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackNormalFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.m; sourceTree = "<group>"; };
+		E49D6D248DD1CEE584E6776B9164A1B2 /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJRefresh.framework; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9DD270EF4C1C66957D0FCA3FB9E095F /* KLTimeMeter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KLTimeMeter.release.xcconfig; sourceTree = "<group>"; };
+		EA1A1680934A5994A1A18259F1BF6A16 /* KLTimeMeter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KLTimeMeter.framework; path = KLTimeMeter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2B773504A9AC949F425F7A957E4998 /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoFooter.m; path = MJRefresh/Base/MJRefreshAutoFooter.m; sourceTree = "<group>"; };
+		EC31A219B753FAA7AEC063D329175429 /* MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefresh.h; path = MJRefresh/MJRefresh.h; sourceTree = "<group>"; };
+		EE4E870862B8266E93361CC2FBA36F19 /* MJRefreshStateHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshStateHeader.m; path = MJRefresh/Custom/Header/MJRefreshStateHeader.m; sourceTree = "<group>"; };
+		EE54EFC954C98125755EF5907426E7BA /* MJRefreshTrailer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshTrailer.m; path = MJRefresh/Base/MJRefreshTrailer.m; sourceTree = "<group>"; };
+		F10F2F1ACBB3CA94715841BCC528A7BC /* KLTimeMeter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KLTimeMeter.modulemap; sourceTree = "<group>"; };
+		F8173214F4DB6CCD45CCBC98972C8990 /* MJRefreshComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshComponent.m; path = MJRefresh/Base/MJRefreshComponent.m; sourceTree = "<group>"; };
+		FAF31FEB6EC11456E35F60BA5078CAD5 /* MJRefreshConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshConst.m; path = MJRefresh/MJRefreshConst.m; sourceTree = "<group>"; };
+		FB9B2C93B7FA373159CDB3D821F5B3A3 /* MJRefreshNormalHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshNormalHeader.m; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.m; sourceTree = "<group>"; };
+		FC03BEBE71934C794A0CB986F937AB74 /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJExtension.m"; path = "MJRefresh/UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
+		FCDAAC8FB1FA579EEAA876F8D58DD6D3 /* KLTimeMeterInterval.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KLTimeMeterInterval.m; path = KLTimeMeter/Classes/KLTimeMeterInterval.m; sourceTree = "<group>"; };
+		FD39A8CA55F14D1BCE4765E8CD7B4589 /* KLTimeMeterManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KLTimeMeterManager.h; path = KLTimeMeter/Classes/KLTimeMeterManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12AD18246D4EAABEC0E935A12DDC7F89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ED9F28A50E20E697D08A49959D9B762 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37292E95167CE1DD2625E8B550A28FB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A16FE242CEB23E71CD02F691F66A112 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B757F63ABEFE866D599735B10092CF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77582019152B8DA5A6439A7F5833C864 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E63D5B5321F62C5DE07154A0CF5117F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0F90D4558F57AE4C28EE197B291FCAD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FC034CA0F2B6FBD224CEE4FADD9672 /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				EC31A219B753FAA7AEC063D329175429 /* MJRefresh.h */,
+				A7260AB949A8561F860F87899DFF9720 /* MJRefreshAutoFooter.h */,
+				EC2B773504A9AC949F425F7A957E4998 /* MJRefreshAutoFooter.m */,
+				1B765EC39E9375E697BD2A7D6E44B9F9 /* MJRefreshAutoGifFooter.h */,
+				7DF29F1AEC35F755D8AA549AA2506C91 /* MJRefreshAutoGifFooter.m */,
+				5BF476797E18810531ABFC3F6E9D734D /* MJRefreshAutoNormalFooter.h */,
+				3A52CBA4D7D8DA6F4612E32257DD6E1D /* MJRefreshAutoNormalFooter.m */,
+				B6F1575AD5753681A0A9DE086F3BE671 /* MJRefreshAutoStateFooter.h */,
+				01C1AC2131E547FB6FA54E32772EFDE9 /* MJRefreshAutoStateFooter.m */,
+				9003BB5EE5B856F06665EAF9DDB99F7E /* MJRefreshBackFooter.h */,
+				7935FFDF49D307A29891FA4ED32EED8B /* MJRefreshBackFooter.m */,
+				19B5D2491829B4D7781B7224D0A7FA90 /* MJRefreshBackGifFooter.h */,
+				7B36D7C1F0ABB9FF3085584FD501F665 /* MJRefreshBackGifFooter.m */,
+				B7B1304F1EEE7EBE6401E9AFA0E8DD04 /* MJRefreshBackNormalFooter.h */,
+				DB47F1B61609B052EC7D868F0637C816 /* MJRefreshBackNormalFooter.m */,
+				72E86725E4528BF0B294798B8012CC7A /* MJRefreshBackStateFooter.h */,
+				D89AFD2761F589D407706890D0214358 /* MJRefreshBackStateFooter.m */,
+				C956E6A151322B532874E36D0FAE3569 /* MJRefreshComponent.h */,
+				F8173214F4DB6CCD45CCBC98972C8990 /* MJRefreshComponent.m */,
+				18EAB2C8BCA3E6A2B1CF9F561D70B473 /* MJRefreshConfig.h */,
+				11BA1AAB8DD34AB3D1CDF0034BD6C1EB /* MJRefreshConfig.m */,
+				0C32C82BEEAE13406A0CF1F28108CB37 /* MJRefreshConst.h */,
+				FAF31FEB6EC11456E35F60BA5078CAD5 /* MJRefreshConst.m */,
+				C4204510DEB9C1B94EA008D0620BA5D4 /* MJRefreshFooter.h */,
+				06C57B6605D3EA0775E9CF6CD3BCD450 /* MJRefreshFooter.m */,
+				50E7A8506408B26A7A5CB187D4A1BDF8 /* MJRefreshGifHeader.h */,
+				8FF062FFB4FD81F316B7C342D303AB73 /* MJRefreshGifHeader.m */,
+				86FC886F0A00558315877D1929396F60 /* MJRefreshHeader.h */,
+				036BC2C6D44A43216A05C023228F7245 /* MJRefreshHeader.m */,
+				2FFF6C420F67A90B6F5E7952DF25B9AA /* MJRefreshNormalHeader.h */,
+				FB9B2C93B7FA373159CDB3D821F5B3A3 /* MJRefreshNormalHeader.m */,
+				4C837E616BE87F93A3709743BF9DA1AA /* MJRefreshNormalTrailer.h */,
+				7ABFB026593E7260C84E4EE47D49163B /* MJRefreshNormalTrailer.m */,
+				66C1A9FA0B2B94A78A3AF1A9438D524F /* MJRefreshStateHeader.h */,
+				EE4E870862B8266E93361CC2FBA36F19 /* MJRefreshStateHeader.m */,
+				1343F5EDC26C7AFC75278CCAD48DF427 /* MJRefreshStateTrailer.h */,
+				31FE3A9F225CE4CF8B893DFE55469491 /* MJRefreshStateTrailer.m */,
+				CF0AE247F3CBACEE619A67CBD8B7E201 /* MJRefreshTrailer.h */,
+				EE54EFC954C98125755EF5907426E7BA /* MJRefreshTrailer.m */,
+				4DF958ABD30010A59637497FABB10BC0 /* NSBundle+MJRefresh.h */,
+				1A8B6A6570FA5D6EF8AF340F420D5435 /* NSBundle+MJRefresh.m */,
+				35F7AB949A18F9EA9FB91F40B3427788 /* UIScrollView+MJExtension.h */,
+				FC03BEBE71934C794A0CB986F937AB74 /* UIScrollView+MJExtension.m */,
+				13183715C982DA46D6E63C23DB38382B /* UIScrollView+MJRefresh.h */,
+				8A702E042B5A291C4B3908E5394B6265 /* UIScrollView+MJRefresh.m */,
+				650EF41EA0F1F8FF80E7AAE72C9551CD /* UIView+MJExtension.h */,
+				C659C2955EEC4D3C5B7D0AF247A243DD /* UIView+MJExtension.m */,
+				8713EEE6845C7340012917DB4D33D1CC /* Resources */,
+				B0273062697ABDD7DF15AF74C1D1DD1F /* Support Files */,
+			);
+			name = MJRefresh;
+			path = MJRefresh;
+			sourceTree = "<group>";
+		};
+		0ED7826901DFC4FAC4D90F1E19DC00A8 /* Pods-KLTimeMeter_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				71BCAF2D07BB97FBB3F2EB7CC685766A /* Pods-KLTimeMeter_Tests.modulemap */,
+				08545B49C074F8EF8416326C486485E4 /* Pods-KLTimeMeter_Tests-acknowledgements.markdown */,
+				7C99F64AB2B48E39904B7C434B9828DE /* Pods-KLTimeMeter_Tests-acknowledgements.plist */,
+				545A405A59EC24FF67D4B2194D38C4D8 /* Pods-KLTimeMeter_Tests-dummy.m */,
+				083DC2366629B0D2D86D56B6905310EC /* Pods-KLTimeMeter_Tests-Info.plist */,
+				59A697DFE27D85969AE3F11E78AF005C /* Pods-KLTimeMeter_Tests-umbrella.h */,
+				106A8B35EDAE6E36BC4ADB1081832B12 /* Pods-KLTimeMeter_Tests.debug.xcconfig */,
+				767F742A197E3CA01AAD21B2F1E3B3FC /* Pods-KLTimeMeter_Tests.release.xcconfig */,
+			);
+			name = "Pods-KLTimeMeter_Tests";
+			path = "Target Support Files/Pods-KLTimeMeter_Tests";
+			sourceTree = "<group>";
+		};
+		22BD573865F7597C98FB977AD3C04490 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DED1A0AB7D7854C961ABB21E4375043 /* KLTimeMeter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		340F0E622AD51476AC6D4CBCC098421A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08FC034CA0F2B6FBD224CEE4FADD9672 /* MJRefresh */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		45F94ECCDD3D286D3C74CDA6175F681C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				59269E45BB086D5B8DCAAB2A15F370F0 /* KLTimeMeter.podspec */,
+				98350F0B3274667AB6ED157B9A224C54 /* LICENSE */,
+				C6302CAE437D2404FBD0A5967BC355F2 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4DED1A0AB7D7854C961ABB21E4375043 /* KLTimeMeter */ = {
+			isa = PBXGroup;
+			children = (
+				4544B505B00F35A7BE8546FA3BA0FE07 /* KLTimeMeter.h */,
+				41AD60B75F123079D475EB6E0768F7FB /* KLTimeMeterInterval.h */,
+				FCDAAC8FB1FA579EEAA876F8D58DD6D3 /* KLTimeMeterInterval.m */,
+				FD39A8CA55F14D1BCE4765E8CD7B4589 /* KLTimeMeterManager.h */,
+				2113F9A6C17641902EF3772457CE482D /* KLTimeMeterManager.m */,
+				45F94ECCDD3D286D3C74CDA6175F681C /* Pod */,
+				9E95290DFE1A854EF4B227CAF1C66DA8 /* Support Files */,
+			);
+			name = KLTimeMeter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8713EEE6845C7340012917DB4D33D1CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1AEC22104436818067ABD1ED2BF8AA5E /* MJRefresh.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		992A5731C6865826682815E0455F9A1C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E229DB2BBC547A50BE225C0185D1F3A0 /* Pods-KLTimeMeter_Example */,
+				0ED7826901DFC4FAC4D90F1E19DC00A8 /* Pods-KLTimeMeter_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9E95290DFE1A854EF4B227CAF1C66DA8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F10F2F1ACBB3CA94715841BCC528A7BC /* KLTimeMeter.modulemap */,
+				2CD8B15E9BD5E201EF4B75787B29212A /* KLTimeMeter-dummy.m */,
+				7403557F1813F699CA6D811227D40330 /* KLTimeMeter-Info.plist */,
+				570AED08B694609840719148DF2DF62D /* KLTimeMeter-prefix.pch */,
+				2958023B922B5CE1E7D9DDFA57D2306E /* KLTimeMeter-umbrella.h */,
+				7609E5D8B8A3E9991B978D65F4799022 /* KLTimeMeter.debug.xcconfig */,
+				E9DD270EF4C1C66957D0FCA3FB9E095F /* KLTimeMeter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KLTimeMeter";
+			sourceTree = "<group>";
+		};
+		B0273062697ABDD7DF15AF74C1D1DD1F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7BF0B2F1D976C2242AF28B584B104A2 /* MJRefresh.modulemap */,
+				9B652FD6D87B11405C41F143218EE028 /* MJRefresh-dummy.m */,
+				23817D753C48626AEC0CDF36B2B7CBA6 /* MJRefresh-Info.plist */,
+				48D4C4EAD6325FD1603EAD8BA1DC3961 /* MJRefresh-prefix.pch */,
+				301FF7BD4744AB97D033F59944BF1011 /* MJRefresh-umbrella.h */,
+				AF53E804E58678DC80BF11E7831EE180 /* MJRefresh.debug.xcconfig */,
+				03EADC078CB0BF2D8AE89723A8E3BE8C /* MJRefresh.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MJRefresh";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				22BD573865F7597C98FB977AD3C04490 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				340F0E622AD51476AC6D4CBCC098421A /* Pods */,
+				F58654E9ED9C6E85A137B9F358A03C4F /* Products */,
+				992A5731C6865826682815E0455F9A1C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E229DB2BBC547A50BE225C0185D1F3A0 /* Pods-KLTimeMeter_Example */ = {
+			isa = PBXGroup;
+			children = (
+				01EB25AC2428E8E1589CACD1219A1660 /* Pods-KLTimeMeter_Example.modulemap */,
+				335170A5DDBAFD27338B02F643D5BABD /* Pods-KLTimeMeter_Example-acknowledgements.markdown */,
+				9CE15026A5BB3CFD1F68B20ABE95BCD0 /* Pods-KLTimeMeter_Example-acknowledgements.plist */,
+				8841020E1BBFCB9AE18D9F947B9BB224 /* Pods-KLTimeMeter_Example-dummy.m */,
+				AB8045FC00016386FBD4BE47B69A3C19 /* Pods-KLTimeMeter_Example-frameworks.sh */,
+				019CF132D2347925270C226CDECD08A3 /* Pods-KLTimeMeter_Example-Info.plist */,
+				0F0292EC9030F6BDF0CC4907C94ACEB9 /* Pods-KLTimeMeter_Example-umbrella.h */,
+				0657E573084EFA2E6B443AD87F4C852D /* Pods-KLTimeMeter_Example.debug.xcconfig */,
+				36143A968352DFC6BABD2DB49B337A27 /* Pods-KLTimeMeter_Example.release.xcconfig */,
+			);
+			name = "Pods-KLTimeMeter_Example";
+			path = "Target Support Files/Pods-KLTimeMeter_Example";
+			sourceTree = "<group>";
+		};
+		F58654E9ED9C6E85A137B9F358A03C4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA1A1680934A5994A1A18259F1BF6A16 /* KLTimeMeter.framework */,
+				E49D6D248DD1CEE584E6776B9164A1B2 /* MJRefresh.framework */,
+				494556B7F327686F90F2B7673A0681BA /* Pods_KLTimeMeter_Example.framework */,
+				54B2C326D143132C35AB14774B1EC12E /* Pods_KLTimeMeter_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0278CC3BCB1CD3E9FAC80B032007A2CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6DFE46FA38208B42FC36B13E716FA7 /* Pods-KLTimeMeter_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A4063F45E674193F265A569E85D64A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8E0AB7CD74B84C388CDE21767A2E3E1 /* KLTimeMeter-umbrella.h in Headers */,
+				2C2F73503F4E272F4F564095F8007446 /* KLTimeMeter.h in Headers */,
+				8F46B0D73851F3EA69837DCC8478F6F3 /* KLTimeMeterInterval.h in Headers */,
+				0C63B5E51A42093DD18E290C3134CC9D /* KLTimeMeterManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95BA94AA4D12B5291D9332D44A3555F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0CB252A9F9823138B65159649E37FB4 /* Pods-KLTimeMeter_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A192139827B56569245729AF500DD492 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2FA7CF735801C899E309901D09D92CB /* MJRefresh-umbrella.h in Headers */,
+				18EF68A63F897815E7651478AC683BFF /* MJRefresh.h in Headers */,
+				32875BD0D0C2023541F2FE9CB05433C9 /* MJRefreshAutoFooter.h in Headers */,
+				B7B8322CDCEA00A4AC58F453546B6034 /* MJRefreshAutoGifFooter.h in Headers */,
+				D9785C7021E6C4E23702768F9055F120 /* MJRefreshAutoNormalFooter.h in Headers */,
+				1218E55A21A583689F065C9E60E21E85 /* MJRefreshAutoStateFooter.h in Headers */,
+				F2FB9D7785A4985D0D5E35A41FD9D042 /* MJRefreshBackFooter.h in Headers */,
+				9BE0BF265B893EF3A61083CA356D29C8 /* MJRefreshBackGifFooter.h in Headers */,
+				671650B5306AC075C470A221F076DED0 /* MJRefreshBackNormalFooter.h in Headers */,
+				E4B2EE0A477945116E640EC3B9040650 /* MJRefreshBackStateFooter.h in Headers */,
+				575A6E5065B2D63D73D9D3093BFC8BA1 /* MJRefreshComponent.h in Headers */,
+				2829A172CF7718DF92F11F74FC30808C /* MJRefreshConfig.h in Headers */,
+				E54F8B2DDCB7F7C79BF24F6F0DE57314 /* MJRefreshConst.h in Headers */,
+				DFB3A97886B6F5B2F46409CE474E1E18 /* MJRefreshFooter.h in Headers */,
+				6B5DE72C51A7ECFCA0F08938450FEF13 /* MJRefreshGifHeader.h in Headers */,
+				B1E235113F74BB337D32950D0E62303C /* MJRefreshHeader.h in Headers */,
+				9375AA78A2A110F76F5A42747B76A84C /* MJRefreshNormalHeader.h in Headers */,
+				AF846B40C387D32AAACB38A3F922A461 /* MJRefreshNormalTrailer.h in Headers */,
+				E33BAA3E1FB4299170447B7D1FE9DC69 /* MJRefreshStateHeader.h in Headers */,
+				2D84CC49CF8696C5FC0B4F97183757BA /* MJRefreshStateTrailer.h in Headers */,
+				032A65EE57DEDDE2F1A1DDA4C7B63704 /* MJRefreshTrailer.h in Headers */,
+				22F534202F1669607531DEB59A1509EF /* NSBundle+MJRefresh.h in Headers */,
+				2F44236F240D213E02C4BD3445600A18 /* UIScrollView+MJExtension.h in Headers */,
+				55C0AA01EFB38DB3E99E12871EAAA0CA /* UIScrollView+MJRefresh.h in Headers */,
+				945A9BE25F8E6ABADEA3F04A7DDE9B08 /* UIView+MJExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1969F6CD79D735AA6EBAB18DC5F84AF8 /* Pods-KLTimeMeter_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7043444A1C2CF43AC7BFDCA23563A89 /* Build configuration list for PBXNativeTarget "Pods-KLTimeMeter_Tests" */;
+			buildPhases = (
+				0278CC3BCB1CD3E9FAC80B032007A2CE /* Headers */,
+				365C1E36D3496E521A1F75B05F3B7C1E /* Sources */,
+				37292E95167CE1DD2625E8B550A28FB9 /* Frameworks */,
+				9F202E5C476E1D74F661CCEC485F6C22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD6111FB4FA5EE4F29E30184EF4B1227 /* PBXTargetDependency */,
+			);
+			name = "Pods-KLTimeMeter_Tests";
+			productName = "Pods-KLTimeMeter_Tests";
+			productReference = 54B2C326D143132C35AB14774B1EC12E /* Pods_KLTimeMeter_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		43E610CEB454C780086C55B00895FC87 /* KLTimeMeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AA508722393EE6EEAEC8E40D74AB7B6 /* Build configuration list for PBXNativeTarget "KLTimeMeter" */;
+			buildPhases = (
+				3A4063F45E674193F265A569E85D64A0 /* Headers */,
+				BB1A697CE14177BE58B8F04AB6EFCBF8 /* Sources */,
+				12AD18246D4EAABEC0E935A12DDC7F89 /* Frameworks */,
+				41D0B96AD5160F423995AD444436E53B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KLTimeMeter;
+			productName = KLTimeMeter;
+			productReference = EA1A1680934A5994A1A18259F1BF6A16 /* KLTimeMeter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6868056D761E163D10FDAF8CF1C4D9B8 /* MJRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 087BD3E831FEAE1DCCB42471A807DF49 /* Build configuration list for PBXNativeTarget "MJRefresh" */;
+			buildPhases = (
+				A192139827B56569245729AF500DD492 /* Headers */,
+				9DB6F44F8BA9DDD098577D53DA95B7E3 /* Sources */,
+				7B757F63ABEFE866D599735B10092CF8 /* Frameworks */,
+				5BEF4D580FC88D926BE442E362934D43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MJRefresh;
+			productName = MJRefresh;
+			productReference = E49D6D248DD1CEE584E6776B9164A1B2 /* MJRefresh.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7539CF7E4E95820B9F557F4D75A79BFA /* Pods-KLTimeMeter_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B654C71206318CDB188C04A9B3A3176 /* Build configuration list for PBXNativeTarget "Pods-KLTimeMeter_Example" */;
+			buildPhases = (
+				95BA94AA4D12B5291D9332D44A3555F4 /* Headers */,
+				1EC6BF1FBFF97258253E8F80181DEE9D /* Sources */,
+				E63D5B5321F62C5DE07154A0CF5117F5 /* Frameworks */,
+				93A2AAF16FD0C77505074A16E3C5015E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C037AFDBFC096057F3D051F96D2469B2 /* PBXTargetDependency */,
+				41E42FE662242495C59BEABB0ED7F2A3 /* PBXTargetDependency */,
+			);
+			name = "Pods-KLTimeMeter_Example";
+			productName = "Pods-KLTimeMeter_Example";
+			productReference = 494556B7F327686F90F2B7673A0681BA /* Pods_KLTimeMeter_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F58654E9ED9C6E85A137B9F358A03C4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43E610CEB454C780086C55B00895FC87 /* KLTimeMeter */,
+				6868056D761E163D10FDAF8CF1C4D9B8 /* MJRefresh */,
+				7539CF7E4E95820B9F557F4D75A79BFA /* Pods-KLTimeMeter_Example */,
+				1969F6CD79D735AA6EBAB18DC5F84AF8 /* Pods-KLTimeMeter_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41D0B96AD5160F423995AD444436E53B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BEF4D580FC88D926BE442E362934D43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2636AC58FFB864367B2C7DA814440673 /* MJRefresh.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93A2AAF16FD0C77505074A16E3C5015E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F202E5C476E1D74F661CCEC485F6C22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EC6BF1FBFF97258253E8F80181DEE9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A38E34D60B46DAB4D69376AB410CAB2 /* Pods-KLTimeMeter_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		365C1E36D3496E521A1F75B05F3B7C1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00BFB8B5DFE6E9D0786F47FCA9C4D10D /* Pods-KLTimeMeter_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DB6F44F8BA9DDD098577D53DA95B7E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2322B939CB5FCFA4A58DC2AFD1EC0F0 /* MJRefresh-dummy.m in Sources */,
+				6B15CB962DD6909799721040AC731E63 /* MJRefreshAutoFooter.m in Sources */,
+				202CACEE7D4DD43EC48D13F3579F52E2 /* MJRefreshAutoGifFooter.m in Sources */,
+				030F2AC677591D7B138D81E2CB94071D /* MJRefreshAutoNormalFooter.m in Sources */,
+				1B29058712D83A2E9581516474123E81 /* MJRefreshAutoStateFooter.m in Sources */,
+				169094D297B643310BF2BD951A4684ED /* MJRefreshBackFooter.m in Sources */,
+				7F8FDA8325037CF58454A6FCC72EF92E /* MJRefreshBackGifFooter.m in Sources */,
+				BF659B71B5A58084930FC865B0403876 /* MJRefreshBackNormalFooter.m in Sources */,
+				4C432B389802242037B7FDE012A84B16 /* MJRefreshBackStateFooter.m in Sources */,
+				178B061B26ADEE4A1CB92FC204405079 /* MJRefreshComponent.m in Sources */,
+				44D61976CDABEE75A89BC987D836BA22 /* MJRefreshConfig.m in Sources */,
+				BB09724AEBC9B724A6CE5483B1C35C2B /* MJRefreshConst.m in Sources */,
+				31EF91A23AAC06327EFF99407F58E4A1 /* MJRefreshFooter.m in Sources */,
+				75F599A0810D049551460FD48BDDC63D /* MJRefreshGifHeader.m in Sources */,
+				DA86C74B839E6CB3E4E5824A8B679C47 /* MJRefreshHeader.m in Sources */,
+				4DB426AE8F6A7872EA9980675937860C /* MJRefreshNormalHeader.m in Sources */,
+				8C3A78CEAB3F62956CF5D2FCD3A3AF5E /* MJRefreshNormalTrailer.m in Sources */,
+				24CD7F98BF2422F938DFA1B4D109F7A3 /* MJRefreshStateHeader.m in Sources */,
+				07988B66B5077EAD4C5066884499D694 /* MJRefreshStateTrailer.m in Sources */,
+				4ED1527DCD779C5DA562796D603E7AAE /* MJRefreshTrailer.m in Sources */,
+				E3A0F7C4F57C9311032A4D27AB7C354D /* NSBundle+MJRefresh.m in Sources */,
+				5133331821D9D576A546B6ACF9A49829 /* UIScrollView+MJExtension.m in Sources */,
+				9CD2D140C582073FEAEB422D4351A367 /* UIScrollView+MJRefresh.m in Sources */,
+				07156A5DC88281DDCDDDC08F2BA33BA6 /* UIView+MJExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB1A697CE14177BE58B8F04AB6EFCBF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA317F0A213DF1B7D5DF80A84465950 /* KLTimeMeter-dummy.m in Sources */,
+				12EA4201881658CD7B5997B283E25B4A /* KLTimeMeterInterval.m in Sources */,
+				36A590D4B703C9FA24B1CC524785766D /* KLTimeMeterManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41E42FE662242495C59BEABB0ED7F2A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJRefresh;
+			target = 6868056D761E163D10FDAF8CF1C4D9B8 /* MJRefresh */;
+			targetProxy = ADC518B40A2477C9713AACB96C0B366F /* PBXContainerItemProxy */;
+		};
+		AD6111FB4FA5EE4F29E30184EF4B1227 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KLTimeMeter_Example";
+			target = 7539CF7E4E95820B9F557F4D75A79BFA /* Pods-KLTimeMeter_Example */;
+			targetProxy = 77BD85519F945D6E35D472319C335E54 /* PBXContainerItemProxy */;
+		};
+		C037AFDBFC096057F3D051F96D2469B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KLTimeMeter;
+			target = 43E610CEB454C780086C55B00895FC87 /* KLTimeMeter */;
+			targetProxy = 8BE223AB8A0AFF241ACADC6BBBD9ACDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11192C2B51BCE9716A3A6A12CA03D337 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0657E573084EFA2E6B443AD87F4C852D /* Pods-KLTimeMeter_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KLTimeMeter_Example/Pods-KLTimeMeter_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KLTimeMeter_Example/Pods-KLTimeMeter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1648A6A84E133414C340BA0ACA3B2765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF53E804E58678DC80BF11E7831EE180 /* MJRefresh.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJRefresh/MJRefresh-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MJRefresh/MJRefresh.modulemap";
+				PRODUCT_MODULE_NAME = MJRefresh;
+				PRODUCT_NAME = MJRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		70EB031081F01EF1186B10422688B795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7609E5D8B8A3E9991B978D65F4799022 /* KLTimeMeter.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KLTimeMeter/KLTimeMeter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KLTimeMeter/KLTimeMeter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KLTimeMeter/KLTimeMeter.modulemap";
+				PRODUCT_MODULE_NAME = KLTimeMeter;
+				PRODUCT_NAME = KLTimeMeter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A9239760A4511F13CA5DC957FE8B11AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 767F742A197E3CA01AAD21B2F1E3B3FC /* Pods-KLTimeMeter_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KLTimeMeter_Tests/Pods-KLTimeMeter_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KLTimeMeter_Tests/Pods-KLTimeMeter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D967363CDF53C918F010F781B939B8AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03EADC078CB0BF2D8AE89723A8E3BE8C /* MJRefresh.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJRefresh/MJRefresh-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MJRefresh/MJRefresh.modulemap";
+				PRODUCT_MODULE_NAME = MJRefresh;
+				PRODUCT_NAME = MJRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE525D5E4D173C6CDA6BFCC9F95263C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9DD270EF4C1C66957D0FCA3FB9E095F /* KLTimeMeter.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KLTimeMeter/KLTimeMeter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KLTimeMeter/KLTimeMeter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KLTimeMeter/KLTimeMeter.modulemap";
+				PRODUCT_MODULE_NAME = KLTimeMeter;
+				PRODUCT_NAME = KLTimeMeter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DF4FDC2D87B2476F41E7056165F22E53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36143A968352DFC6BABD2DB49B337A27 /* Pods-KLTimeMeter_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KLTimeMeter_Example/Pods-KLTimeMeter_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KLTimeMeter_Example/Pods-KLTimeMeter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E06C49BDC0804975859BEC99A95963F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 106A8B35EDAE6E36BC4ADB1081832B12 /* Pods-KLTimeMeter_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KLTimeMeter_Tests/Pods-KLTimeMeter_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KLTimeMeter_Tests/Pods-KLTimeMeter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		087BD3E831FEAE1DCCB42471A807DF49 /* Build configuration list for PBXNativeTarget "MJRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1648A6A84E133414C340BA0ACA3B2765 /* Debug */,
+				D967363CDF53C918F010F781B939B8AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B654C71206318CDB188C04A9B3A3176 /* Build configuration list for PBXNativeTarget "Pods-KLTimeMeter_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11192C2B51BCE9716A3A6A12CA03D337 /* Debug */,
+				DF4FDC2D87B2476F41E7056165F22E53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AA508722393EE6EEAEC8E40D74AB7B6 /* Build configuration list for PBXNativeTarget "KLTimeMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70EB031081F01EF1186B10422688B795 /* Debug */,
+				DE525D5E4D173C6CDA6BFCC9F95263C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7043444A1C2CF43AC7BFDCA23563A89 /* Build configuration list for PBXNativeTarget "Pods-KLTimeMeter_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E06C49BDC0804975859BEC99A95963F8 /* Debug */,
+				A9239760A4511F13CA5DC957FE8B11AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

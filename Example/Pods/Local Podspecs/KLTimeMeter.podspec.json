@@ -1,0 +1,22 @@
+{
+  "name": "KLTimeMeter",
+  "version": "0.1.0",
+  "summary": "A short description of KLTimeMeter.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/leqiang222@163.com/KLTimeMeter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "leqiang222@163.com": "leqiang222@163.com"
+  },
+  "source": {
+    "git": "https://github.com/leqiang222@163.com/KLTimeMeter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "KLTimeMeter/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module KLTimeMeter {
+  umbrella header "KLTimeMeter-umbrella.h"
+
+  export *
+  module * { export * }
+}

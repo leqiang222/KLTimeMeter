@@ -1,0 +1,23 @@
+PODS:
+  - KLTimeMeter (0.1.0)
+  - MJRefresh (3.5.0)
+
+DEPENDENCIES:
+  - KLTimeMeter (from `../`)
+  - MJRefresh
+
+SPEC REPOS:
+  trunk:
+    - MJRefresh
+
+EXTERNAL SOURCES:
+  KLTimeMeter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KLTimeMeter: e2372c9eb04861f09b7bf58f12862b2664ea094e
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+
+PODFILE CHECKSUM: a91f87b7a0569b652bcdd14dc881a4e270703da2
+
+COCOAPODS: 1.10.0

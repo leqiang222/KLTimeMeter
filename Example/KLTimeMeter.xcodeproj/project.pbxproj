@@ -24,6 +24,11 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		95410A55A78C1A3DA022BB2E /* Pods_KLTimeMeter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A74A7477BE8108DAA78EA5 /* Pods_KLTimeMeter_Tests.framework */; };
+		F71A6CF325C3EF59008E0F0A /* KLTimeTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = F71A6CF125C3EF59008E0F0A /* KLTimeTableController.m */; };
+		F71A6CF425C3EF59008E0F0A /* KLTimeTableController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F71A6CF225C3EF59008E0F0A /* KLTimeTableController.xib */; };
+		F71A6CFA25C3F30A008E0F0A /* KLTimeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F71A6CF825C3F30A008E0F0A /* KLTimeTableCell.m */; };
+		F71A6CFB25C3F30A008E0F0A /* KLTimeTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F71A6CF925C3F30A008E0F0A /* KLTimeTableCell.xib */; };
+		F71A6D0025C3F31A008E0F0A /* KLTimeTableModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F71A6CFF25C3F31A008E0F0A /* KLTimeTableModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,14 +63,22 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		662EDD3EEF1708FDE3B567B8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		662EDD3EEF1708FDE3B567B8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		789A96A9416988C980322900 /* Pods_KLTimeMeter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KLTimeMeter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DACB0218A9FE58ACEEEC661 /* Pods-KLTimeMeter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLTimeMeter_Example.debug.xcconfig"; path = "Target Support Files/Pods-KLTimeMeter_Example/Pods-KLTimeMeter_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		97D40050B04A7CA4E8D62F83 /* KLTimeMeter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KLTimeMeter.podspec; path = ../KLTimeMeter.podspec; sourceTree = "<group>"; };
+		97D40050B04A7CA4E8D62F83 /* KLTimeMeter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KLTimeMeter.podspec; path = ../KLTimeMeter.podspec; sourceTree = "<group>"; };
 		CCFBF965C46A4C06ED07E61B /* Pods-KLTimeMeter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLTimeMeter_Example.release.xcconfig"; path = "Target Support Files/Pods-KLTimeMeter_Example/Pods-KLTimeMeter_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EB35045C96F9ADC36D7E34D5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EB35045C96F9ADC36D7E34D5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F71A6CF025C3EF59008E0F0A /* KLTimeTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLTimeTableController.h; sourceTree = "<group>"; };
+		F71A6CF125C3EF59008E0F0A /* KLTimeTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLTimeTableController.m; sourceTree = "<group>"; };
+		F71A6CF225C3EF59008E0F0A /* KLTimeTableController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KLTimeTableController.xib; sourceTree = "<group>"; };
+		F71A6CF725C3F30A008E0F0A /* KLTimeTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLTimeTableCell.h; sourceTree = "<group>"; };
+		F71A6CF825C3F30A008E0F0A /* KLTimeTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLTimeTableCell.m; sourceTree = "<group>"; };
+		F71A6CF925C3F30A008E0F0A /* KLTimeTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KLTimeTableCell.xib; sourceTree = "<group>"; };
+		F71A6CFE25C3F31A008E0F0A /* KLTimeTableModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLTimeTableModel.h; sourceTree = "<group>"; };
+		F71A6CFF25C3F31A008E0F0A /* KLTimeTableModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLTimeTableModel.m; sourceTree = "<group>"; };
 		F7D95F22DED9F026CF507B4D /* Pods-KLTimeMeter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLTimeMeter_Tests.release.xcconfig"; path = "Target Support Files/Pods-KLTimeMeter_Tests/Pods-KLTimeMeter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +145,7 @@
 		6003F593195388D20070C39A /* Example for KLTimeMeter */ = {
 			isa = PBXGroup;
 			children = (
+				F71A6CE325C3EED6008E0F0A /* MVC */,
 				6003F59C195388D20070C39A /* KLAppDelegate.h */,
 				6003F59D195388D20070C39A /* KLAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -193,8 +207,46 @@
 				452A5EAF2D0887CCF2F743FD /* Pods-KLTimeMeter_Tests.debug.xcconfig */,
 				F7D95F22DED9F026CF507B4D /* Pods-KLTimeMeter_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		F71A6CE325C3EED6008E0F0A /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				F71A6CE625C3EF07008E0F0A /* View */,
+				F71A6CE525C3EF02008E0F0A /* Model */,
+				F71A6CE425C3EEFB008E0F0A /* Controller */,
+			);
+			name = MVC;
+			sourceTree = "<group>";
+		};
+		F71A6CE425C3EEFB008E0F0A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F71A6CF025C3EF59008E0F0A /* KLTimeTableController.h */,
+				F71A6CF125C3EF59008E0F0A /* KLTimeTableController.m */,
+				F71A6CF225C3EF59008E0F0A /* KLTimeTableController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F71A6CE525C3EF02008E0F0A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F71A6CFE25C3F31A008E0F0A /* KLTimeTableModel.h */,
+				F71A6CFF25C3F31A008E0F0A /* KLTimeTableModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F71A6CE625C3EF07008E0F0A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F71A6CF725C3F30A008E0F0A /* KLTimeTableCell.h */,
+				F71A6CF825C3F30A008E0F0A /* KLTimeTableCell.m */,
+				F71A6CF925C3F30A008E0F0A /* KLTimeTableCell.xib */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +300,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "leqiang222@163.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 7YDX583K64;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +313,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -277,7 +333,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F71A6CFB25C3F30A008E0F0A /* KLTimeTableCell.xib in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				F71A6CF425C3EF59008E0F0A /* KLTimeTableController.xib in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -347,10 +405,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-KLTimeMeter_Example/Pods-KLTimeMeter_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/KLTimeMeter/KLTimeMeter.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KLTimeMeter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -364,8 +424,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F71A6CF325C3EF59008E0F0A /* KLTimeTableController.m in Sources */,
 				6003F59E195388D20070C39A /* KLAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* KLViewController.m in Sources */,
+				F71A6CFA25C3F30A008E0F0A /* KLTimeTableCell.m in Sources */,
+				F71A6D0025C3F31A008E0F0A /* KLTimeTableModel.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,6 +557,7 @@
 			baseConfigurationReference = 8DACB0218A9FE58ACEEEC661 /* Pods-KLTimeMeter_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7YDX583K64;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KLTimeMeter/KLTimeMeter-Prefix.pch";
 				INFOPLIST_FILE = "KLTimeMeter/KLTimeMeter-Info.plist";
@@ -510,6 +574,7 @@
 			baseConfigurationReference = CCFBF965C46A4C06ED07E61B /* Pods-KLTimeMeter_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7YDX583K64;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KLTimeMeter/KLTimeMeter-Prefix.pch";
 				INFOPLIST_FILE = "KLTimeMeter/KLTimeMeter-Info.plist";
